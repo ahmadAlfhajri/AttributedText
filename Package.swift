@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "AttributedText",
+  name: "AttributedText-Gonzalezreal",
   platforms: [
     .macOS(.v11),
     .iOS(.v14),
