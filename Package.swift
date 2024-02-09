@@ -12,8 +12,8 @@ let package = Package(
   ],
   products: [
     .library(
-      name: "AttributedText",
-      targets: ["AttributedText"]
+      name: "AttributedText-Gonzalezreal",
+      targets: ["AttributedText-Gonzalezreal"]
     )
   ],
   dependencies: [
@@ -25,12 +25,12 @@ let package = Package(
   ],
   targets: [
     .target(
-      name: "AttributedText",
+      name: "AttributedText-Gonzalezreal",
       dependencies: []
     ),
     .testTarget(
       name: "AttributedTextTests",
-      dependencies: ["AttributedText", "SnapshotTesting"],
+      dependencies: ["AttributedText-Gonzalezreal", "SnapshotTesting"],
       exclude: ["__Snapshots__"]
     ),
   ]
